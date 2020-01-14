@@ -222,10 +222,17 @@
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .slick-prev,
     .slick-next {
         top: 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slick-prev,
+    .slick-next {
+        top: 31%;
     }
 
     .slick-prev {
