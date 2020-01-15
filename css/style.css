@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 75px 50px 125px 50px;
+    padding: 75px 50px 75px 50px;
     margin: 0 auto;
 }
 
@@ -138,6 +138,10 @@ body {
     margin: 30px 100px 0px 100px;
 }
 
+.lifestyle-container {
+    line-height: 0;
+}
+
 
 
 
@@ -155,9 +159,8 @@ body {
 
 @media screen and (max-width: 1250px) {
     .b01 {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
-
     }
 }
 
@@ -194,7 +197,8 @@ body {
 @media screen and (max-width: 500px) {
 
     .b01 {
-    padding: 75px 20px 125px 20px;
+    padding: 75px 20px 75px 20px;
+    text-align: center;
     }
 
     .name {
@@ -211,6 +215,10 @@ body {
 
     .photo-container {
         margin-top: 30px;
+    }
+
+    .button {
+        padding: 10px 35px;
     }
 
     .products-container {
