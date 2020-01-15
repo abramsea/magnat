@@ -23,6 +23,7 @@
 .nav {
     display: flex;
     border-top: 1px solid #c1c1c1;
+    transition: all .3s;
 }
 
 .nav a {
