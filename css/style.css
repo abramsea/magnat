@@ -90,12 +90,7 @@ body {
     margin-top: 30px;
 }
 
-.p04, .p14 {
-    /* background: #00C8EB url(../img/Group-17.png) center no-repeat;
-    padding-bottom: 100px; */
 
-    display: none;
-}
 
 .product-img {
     margin-bottom: 50px;
@@ -113,26 +108,58 @@ body {
     margin-bottom: 35px;
 }
 
+.product-about-container, .animated-button, .animated-about {
+    width: 100%;
+    height: 150px;
+}
+
+.animated-button {
+    opacity: 0;
+    position: relative;
+    top: -150px;
+}
+
+.animated-button, .animated-about {
+    transition: all .5s;
+}
+
+.product-button {
+    width: 100%;
+    display: block;
+    background: #00C8EB;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 36px;
+    box-shadow: 0 12px 10px rgba(0,0,0,.16);
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
 .product-about {
     font-size: 20px;
     line-height: 25px;
     font-weight: 200;
+    transition: all .5s;
 }
 
-.product-slogan {
-    color: #fff;
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 400;
-    margin: 150px 0 150px 0;
-    padding: 25px 25px 50px 25px;
+.product-about-container:hover .animated-button {
+    opacity: 1;
 }
 
-.white-button {
-    background: #fff;
-    color: #30323f;
-    border-radius: 36px;
+.product-about-container:hover .animated-about {
+    opacity: 0;
 }
+
+.product-button:hover {
+    opacity: 0.7;
+    box-shadow: 0 6px 5px rgba(0,0,0,.16);
+}
+
+
+
 
 .p07, .p08, .p09, .p10 {
     margin: 30px 100px 0px 100px;

@@ -8,7 +8,4 @@ menu.onclick = function openHiddenMenu() {
         x.className = "nav";
         $("#menu").html("&#9776;");
     }
-
-
-
 }
