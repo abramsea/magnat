@@ -145,11 +145,12 @@ body {
     transition: all .5s;
 }
 
-.product-about-container:hover .animated-button {
+
+.product:hover .animated-button {
     opacity: 1;
 }
 
-.product-about-container:hover .animated-about {
+.product:hover .animated-about {
     opacity: 0;
 }
 
